@@ -14,7 +14,7 @@ body {
     justify-content: center;
     align-items: center;
     border: 2px solid black;
-    background-color: aqua;
+    background-color: teal;
 }
 
 .player-container {
@@ -23,7 +23,6 @@ body {
 }
 
 #player1 {
-
     background-color: wheat;
 }
 
@@ -42,8 +41,19 @@ body {
     border: 2px solid black;
 }
 
+#player-image, #computer-image {
+    height: 250px;
+    width: 250px;
+}
+
+.button-container {
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 15px 0 15px 0;
+}
+
 .game-controls {
-   
     height: 100px;
     width: 90vw;
     display: flex;
@@ -51,5 +61,5 @@ body {
     justify-content: center;
     align-items: center;
     border: 2px solid black;
-    background-color: violet;
+    background-color: teal;
 }

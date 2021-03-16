@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css reset file -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css">
+    <!-- project css file -->
     <link rel="stylesheet" href="index.css">
     <title>Rock Paper Scissors</title>
 </head>
@@ -20,8 +23,11 @@
         <div class="player-container">
             <div class="player" id="player1">
                 <h1>Player</h1>
-                <div class="player-choice">Image</div>
                 <div>
+                    <img id="player-image" src="./images/rock.png" />   
+                </div>
+               
+                <div class="button-container">
                     <button>Rock</button>
                     <button>Paper</button>
                     <button>Scissor</button>
@@ -29,7 +35,9 @@
             </div>
             <div class="player" id="player2">
                 <h1>Computer</h1>
-                <div class="computer_choice">Image</div>
+                <div>
+                    <img id="computer-image" src="./images/paper.png" /> 
+                </div>
             </div>
         </div>
         <div class="game-controls">
