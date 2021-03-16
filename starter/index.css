@@ -66,11 +66,13 @@ body {
     width: 250px;
 }
 
-.button-container {
+.button-container, .computer-image-name {
+    width: 225px;
     border: 2px solid black;
     border-radius: 5px;
     padding: 10px;
     margin: 15px 0 15px 0;
+    text-align: center;
 }
 
 .game-controls {
