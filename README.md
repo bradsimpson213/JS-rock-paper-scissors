@@ -6,7 +6,8 @@ You goal is to implement rock, paper, scissors, shoot! (aka "roshambo").[RPS wik
 
 1. A player can click on the rock, paper, or scissors button to choose their move each round.  The player's image should be updated to reflect what choice the player made.  (Feel free to add animation or a transition here!)
 2. Once the player makes their choice, the computer will randomly pick its move, and then computer's image should be updated to reflect that choice. (again animation/transition potential)
- 
+3. After the player and computer have both taken a turn, the game outcome needs to be decided and the Wins/Ties/Losses counts needs to be updated.
+4. The reset stats button should reset the Wins/Ties/Losses counts back to zero.
 
 ## Files in Starter
 
