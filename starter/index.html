@@ -15,9 +15,19 @@
         <div class="game-announcements">
             <h1>Rock Paper Scissors</h1>
             <div class="game-stats">
-                <span>Wins</span>
-                <span>Ties</span>
-                <span>Losses</span>
+                <div class="game-stats-data">
+                    <span>Wins</span>
+                    <span id="wins">0</span>
+                </div>
+                <div class="game-stats-data">
+                    <span>Ties</span>
+                    <span id="ties">0</span>
+                </div>
+                <div class="game-stats-data">
+                    <span>Losses</span>
+                    <span id="losses">0</span>
+                </div>
+                
             </div>
         </div>
         <div class="player-container">
@@ -28,9 +38,9 @@
                 </div>
                
                 <div class="button-container">
-                    <button>Rock</button>
-                    <button>Paper</button>
-                    <button>Scissor</button>
+                    <button id="rock-button">Rock</button>
+                    <button id="paper-button">Paper</button>
+                    <button id="scissors-button">Scissors</button>
                 </div>
             </div>
             <div class="player" id="player2">
